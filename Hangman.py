@@ -29,7 +29,7 @@ while lives>0:
     print("\n\n")
 
     print("Number of Lives remaining:",lives)
-    z=input("Enter the letter you'd like to check for in the word").lower()
+    z=input("Enter the letter you'd like to check for in the word:").lower()
     print('\n\n')
     if len(z)>1 and z.isalpha()==False:
         print("Give me just a single letter of the alphabet")
